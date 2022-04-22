@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #94C5CC;
+   
+}
+
+#jesscafe {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 48px;
+    margin: 20px;
+}
+
+.nav {
+    display: grid;
+    width: 100%;
+    height: 50px;
+    background-color: #A1A6B4;
+    grid-template-rows: auto;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+.navitem {
+    margin-bottom:5px;
+    margin-top:5px;
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:larger;
+}
+
+.navitem-highlighted {
+    margin:0;
+    padding: 15px 10px 10px 10px;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:larger;
+    background-color:#B4D2E7;
+}
+
+.hero {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 430px 430px 400px;
+    grid-template-rows: 100%;
+}
+
+.heroitem {
+    height: 600px;
+    width: 350px;
+}
+
+.sectionA {
+    width:100%;
+    height: 400px;
+    background-color:#B4D2E7;
+}
+
+.sectionA-history {
+    width:100%;
+    height: 500px;
+    background-color:#B4D2E7;
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    width:100%;
+    height: 1000px;
+    background-color:#B4D2E7;
+}
+
+.gallery_image {
+    width: 350px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.sectionB {
+    width:100%;
+    height: 400px;
+    background-color:#F8F8F8;
+}
+
+.sectionC {
+    width:100%;
+    height: 400px;
+    background-color:#94C5CC;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10;
+    right:10;
+    width: 200px;
+    background-color:#B4D2E7;
+    border-radius: 4px;
+    box-shadow: 5px 5px;
+
+}
+
+.social-button {
+    width: 30px;
+    height:30px;
+    padding: 5px;
+}
+
+.navitem-social {
+    margin:5px;
+}
+
+.scrollbox {
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    grid-template-rows: auto;
+}
+
+.scrollbox-alt {
+    display: grid;
+    grid-template-columns: 35% 40% 25%;
+    grid-template-rows: auto;
+}
+
+.scrollboxitem {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+form {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+}
+
+#centertext {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #A1A6B4;
+    justify-content: flex-end;
+}
+
+.footeritem {
+    margin-bottom:5px;
+    margin-top:5px;
+    padding:10px 10px 10px 10px;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:larger;
+}
+
+td {
+    padding:10px;
+    text-align:center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+th {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a { text-decoration: none;
+    color: black;
+
+}
+
+#reservation {
+    width:100%;
+    height: 400px;
+    background-color:#F8F8F8;
+}
+
+#footer_anchor {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #A1A6B4;
+    justify-content: flex-end;
+}
+
+li {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#cover-image {
+    width:1400px; 
+    height:650px;
+    object-fit: cover;
+}
